@@ -48,12 +48,7 @@ export function createViteConfig(rootDir: string) {
         formats: ['es', 'cjs'],
       },
       rollupOptions: {
-        external: [
-          ...Object.keys(packageJson.dependencies || {}),
-          ...Object.keys(packageJson.peerDependencies || {}),
-          ...Object.keys(packageJson.devDependencies || {}),
-          'react/jsx-runtime',
-        ],
+        external: [...Object.keys(packageJson.dependencies || {}), ...Object.keys(packageJson.peerDependencies || {}), 'react/jsx-runtime'],
         output: {
           banner: (chunk) => {
             if (!chunk.exports.find((module) => module.startsWith('*'))) {

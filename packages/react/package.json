@@ -31,12 +31,13 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@nextui-org/react": ">=2.4.8",
+    "framer-motion": ">=10.17.0",
     "@tabler/icons-react": ">=3.17.0",
     "react": ">=18",
     "react-dom": ">=18"
   },
   "devDependencies": {
+    "framer-motion": ">=10.17.0",
     "@myraui/react-test-utils": "workspace:*",
     "@myraui/test-utils": "workspace:*",
     "@nextui-org/react": "^2.4.8",
