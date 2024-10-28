@@ -59,5 +59,6 @@
     "zod": "^3.23.8",
     "zsa": "^0.6.0",
     "zsa-react": "^0.2.3"
-  }
+  },
+  "clean-package": "../../clean-package.config.json"
 }
