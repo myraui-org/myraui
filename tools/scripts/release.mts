@@ -33,18 +33,12 @@ const projects = readCachedProjectGraph().nodes;
 
   const firstRelease = tags.length === 0;
 
-  if (firstRelease) {
-    // tag the first commit with v0.0.0
-    // get the first commit hash
-    const firstCommitHash = execaSync('git', ['rev-list', '--max-parents=0', 'HEAD']).stdout.trim();
-    execaSync('git', ['tag', 'v0.0.0', firstCommitHash]);
-  }
-
   // execute in dry-run mode to determine the version and changelog content
   const { workspaceVersion, projectsVersionData } = await releaseVersion({
     specifier: options.version,
     dryRun: true,
     verbose: false,
+    firstRelease,
   });
 
   if (workspaceVersion == null) {
@@ -69,6 +63,7 @@ const projects = readCachedProjectGraph().nodes;
     version: workspaceVersion,
     dryRun: options.dryRun,
     verbose: options.verbose,
+    firstRelease,
   });
 
   await releaseVersion({
@@ -77,6 +72,7 @@ const projects = readCachedProjectGraph().nodes;
     verbose: false,
     gitCommit: false,
     stageChanges: false,
+    firstRelease,
   });
 
   // The returned number value from releasePublish will be zero if all projects are published successfully, non-zero if not
