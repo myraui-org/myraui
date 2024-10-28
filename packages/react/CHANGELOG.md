@@ -1,3 +1,15 @@
+## 0.1.1 (2024-10-28)
+
+
+### 🩹 Fixes
+
+- **plugin:** add plugin export ([00bdda5](https://github.com/myraui-org/myraui/commit/00bdda5))
+
+
+### ❤️  Thank You
+
+- Moses Gitau @gitaumoses4
+
 ## 0.1.0 (2024-10-28)
 
 
