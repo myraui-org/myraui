@@ -5,6 +5,6 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "@myraui/react": "workspace:*"
+    "@myraui-org/react": "workspace:*"
   }
 }

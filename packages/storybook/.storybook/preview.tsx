@@ -1,7 +1,7 @@
 import theme from './theme';
 import { Preview } from '@storybook/react';
 import { themes } from '@storybook/theming';
-import { Toaster } from '@myraui/react';
+import { Toaster } from '@myraui-org/react';
 
 import './style.scss';
 import React, { useEffect } from 'react';
@@ -39,7 +39,7 @@ const Container = (props: DocsContainerProps) => {
 
 const commonTheme = {
   brandTitle: 'MyraUI',
-  brandUrl: 'https://github.com/myraui/myraui',
+  brandUrl: 'https://github.com/myraui-org/myraui',
   brandTarget: '_self',
 };
 

@@ -1,5 +1,5 @@
 {
-  "name": "@myraui/react-test-utils",
+  "name": "@myraui-org/react-test-utils",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/react-test-utils/src",
   "projectType": "library",

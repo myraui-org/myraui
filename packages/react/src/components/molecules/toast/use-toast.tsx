@@ -3,8 +3,8 @@ import { toastTheme } from './toast.theme';
 import React, { PropsWithChildren, useMemo } from 'react';
 import { mapPropsVariants, SlotsToClasses } from '@nextui-org/react';
 import clsx from 'clsx';
-import { DOMAttributes } from '@myraui/react-utils';
-import { objectToDeps } from '@myraui/shared-utils';
+import { DOMAttributes } from '@myraui-org/react-utils';
+import { objectToDeps } from '@myraui-org/shared-utils';
 import * as ToastPrimitives from '@radix-ui/react-toast';
 
 interface Props {

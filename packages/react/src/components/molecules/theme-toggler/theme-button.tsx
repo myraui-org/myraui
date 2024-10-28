@@ -1,5 +1,5 @@
 import React from 'react';
-import { Theme } from '@myraui/react-utils';
+import { Theme } from '@myraui-org/react-utils';
 import { RadioProps, useRadio, VisuallyHidden } from '@nextui-org/react';
 
 export const ThemeButton: React.FC<ThemeButtonProps> = ({ theme, ...props }) => {

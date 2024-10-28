@@ -1,9 +1,9 @@
 import { useThemeSwitcher, UseThemeSwitcherProps } from './use-theme-switcher';
 import React from 'react';
 import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from '@nextui-org/react';
-import { themes } from '@myraui/react-utils';
+import { themes } from '@myraui-org/react-utils';
 import { IconCheck, IconChevronDown } from '@tabler/icons-react';
-import { capitalize } from '@myraui/shared-utils';
+import { capitalize } from '@myraui-org/shared-utils';
 
 export type ThemeSwitcherProps = UseThemeSwitcherProps;
 

@@ -1,6 +1,6 @@
 {
-  "name": "@myraui/server",
-  "version": "2.5.0",
+  "name": "@myraui-org/server",
+  "version": "0.0.0",
   "type": "module",
   "description": "A collection of all server related tools",
   "keywords": [
@@ -21,11 +21,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myraui/myraui.git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
     "directory": "packages/server"
   },
   "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "url": "https://github.com/myraui-org/myraui/issues"
   },
   "scripts": {
     "prepack": "clean-package",
@@ -35,12 +35,12 @@
     "next": ">=14.0.4"
   },
   "devDependencies": {
-    "@myraui/test-utils": "workspace:*",
+    "@myraui-org/test-utils": "workspace:*",
     "clean-package": "2.2.0",
     "next": ">=14.0.4"
   },
   "dependencies": {
-    "@myraui/fonts": "workspace:*",
+    "@myraui-org/fonts": "workspace:*",
     "zsa": "^0.6.0"
   }
 }

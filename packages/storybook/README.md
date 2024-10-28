@@ -1,4 +1,4 @@
-# @myraui/storybook
+# @myraui-org/storybook
 
 A Quick description of the component
 
@@ -7,12 +7,12 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @myraui/storybook
+yarn add @myraui-org/storybook
 # or
-npm i @myraui/storybook
+npm i @myraui-org/storybook
 ```
 
 ## Licence
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/myraui/myraui/blob/main/LICENSE).
+[MIT license](https://github.com/myraui-org/myraui/blob/main/LICENSE).

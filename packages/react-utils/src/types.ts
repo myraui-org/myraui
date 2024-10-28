@@ -1,4 +1,4 @@
-import { Merge } from '@myraui/shared-utils';
+import { Merge } from '@myraui-org/shared-utils';
 import React from 'react';
 
 type DataAttributes = {

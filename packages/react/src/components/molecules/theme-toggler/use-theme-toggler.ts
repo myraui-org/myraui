@@ -3,8 +3,8 @@ import { ThemeTogglerSlots, themeTogglerTheme } from './theme-toggler.theme';
 import { useMemo } from 'react';
 import { mapPropsVariants, RadioGroupProps, SlotsToClasses } from '@nextui-org/react';
 import clsx from 'clsx';
-import { PropGetter } from '@myraui/react-utils';
-import { objectToDeps } from '@myraui/shared-utils';
+import { PropGetter } from '@myraui-org/react-utils';
+import { objectToDeps } from '@myraui-org/shared-utils';
 import { useTheme } from 'next-themes';
 
 interface Props extends RadioGroupProps {

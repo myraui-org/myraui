@@ -3,8 +3,8 @@ import { themeSwitcherTheme } from './theme-switcher.theme';
 import { useEffect, useMemo, useState } from 'react';
 import { ButtonProps, mapPropsVariants, SlotsToClasses } from '@nextui-org/react';
 import clsx from 'clsx';
-import { DOMAttributes, themes } from '@myraui/react-utils';
-import { objectToDeps } from '@myraui/shared-utils';
+import { DOMAttributes, themes } from '@myraui-org/react-utils';
+import { objectToDeps } from '@myraui-org/shared-utils';
 import { useTheme } from 'next-themes';
 
 interface Props extends Omit<ButtonProps, 'children'> {

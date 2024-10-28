@@ -1,6 +1,6 @@
 {
-  "name": "@myraui/react-test-utils",
-  "version": "2.5.0",
+  "name": "@myraui-org/react-test-utils",
+  "version": "0.0.0",
   "description": "Utilities for testing react components",
   "keywords": [
     "react-test-utils"
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myraui/myraui.git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
     "directory": "packages/react-test-utils"
   },
   "scripts": {
@@ -28,11 +28,11 @@
     "postpack": "clean-package restore"
   },
   "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "url": "https://github.com/myraui-org/myraui/issues"
   },
   "devDependencies": {
     "clean-package": "2.2.0",
-    "@myraui/test-utils": "workspace:*"
+    "@myraui-org/test-utils": "workspace:*"
   },
   "dependencies": {},
   "clean-package": "../../clean-package.config.json"

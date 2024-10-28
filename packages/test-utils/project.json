@@ -1,5 +1,5 @@
 {
-  "name": "@myraui/test-utils",
+  "name": "@myraui-org/test-utils",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/test-utils/src",
   "projectType": "library",

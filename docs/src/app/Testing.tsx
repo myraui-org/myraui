@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Form, FormInput, SubmitButton, useForm } from '@myraui/react';
+import { Form, FormInput, SubmitButton, useForm } from '@myraui-org/react';
 
 export const Testing: React.FC<TestingProps> = (props) => {
   const form = useForm();

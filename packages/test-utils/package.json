@@ -1,6 +1,6 @@
 {
-  "name": "@myraui/test-utils",
-  "version": "2.5.0",
+  "name": "@myraui-org/test-utils",
+  "version": "0.0.0",
   "type": "module",
   "description": "Common test utils for all packages",
   "keywords": [
@@ -21,11 +21,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myraui/myraui.git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
     "directory": "packages/test-utils"
   },
   "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "url": "https://github.com/myraui-org/myraui/issues"
   },
   "scripts": {
     "prepack": "clean-package",

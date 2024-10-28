@@ -1,6 +1,6 @@
 {
-  "name": "@myraui/react",
-  "version": "2.5.0",
+  "name": "@myraui-org/react",
+  "version": "0.0.0",
   "description": "A modern React UI library to elevate your UI experience",
   "keywords": [
     "react"
@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myraui/myraui.git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
     "directory": "packages/react"
   },
   "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "url": "https://github.com/myraui-org/myraui/issues"
   },
   "scripts": {
     "prepack": "clean-package",
@@ -37,17 +37,17 @@
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@myraui/react-test-utils": "workspace:*",
-    "@myraui/test-utils": "workspace:*",
+    "@myraui-org/react-test-utils": "workspace:*",
+    "@myraui-org/test-utils": "workspace:*",
     "@nextui-org/react": "^2.4.8",
     "@tabler/icons-react": "^3.17.0",
     "clean-package": "2.2.0"
   },
   "dependencies": {
     "framer-motion": ">=10.17.0",
-    "@myraui/hooks": "workspace:*",
-    "@myraui/react-utils": "workspace:*",
-    "@myraui/shared-utils": "workspace:*",
+    "@myraui-org/hooks": "workspace:*",
+    "@myraui-org/react-utils": "workspace:*",
+    "@myraui-org/shared-utils": "workspace:*",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-toast": "^1.2.1",
     "tailwindcss-animate": "^1.0.7",

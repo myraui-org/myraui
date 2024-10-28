@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: '@myraui/test-utils',
+  displayName: '@myraui-org/test-utils',
   preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]s?$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
