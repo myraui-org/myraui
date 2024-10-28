@@ -1,6 +1,6 @@
 {
   "name": "@myraui-org/server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "A collection of all server related tools",
   "keywords": [
