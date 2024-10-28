@@ -39,7 +39,7 @@ export const Default: Story = {
 /**
  * This will look like a form select dropdown.
  */
-export const ThemeDropdown: Story = {
+export const Dropdown: Story = {
   render: Template,
   args: {
     ...defaultProps,

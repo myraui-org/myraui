@@ -1,9 +1,9 @@
 {
-  "name": "@myraui/react",
+  "name": "@myraui/react-utils",
   "version": "2.5.0",
-  "description": "A modern React UI library to elevate your UI experience",
+  "description": "Common react utilities for Myra UI packages",
   "keywords": [
-    "react"
+    "react-utils"
   ],
   "author": {
     "name": "Moses Gitau",
@@ -11,17 +11,17 @@
   },
   "license": "MIT",
   "main": "./src/index.ts",
-  "sideEffects": false,
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myraui/myraui.git",
-    "directory": "packages/react"
+    "directory": "packages/react-utils"
   },
   "bugs": {
     "url": "https://github.com/myraui/myraui/issues"
@@ -37,6 +37,7 @@
     "react-dom": ">=18"
   },
   "devDependencies": {
+    "framer-motion": ">=10.17.0",
     "@myraui/react-test-utils": "workspace:*",
     "@myraui/test-utils": "workspace:*",
     "@nextui-org/react": "^2.4.8",
@@ -45,19 +46,9 @@
   },
   "dependencies": {
     "framer-motion": ">=10.17.0",
-    "@myraui/hooks": "workspace:*",
-    "@myraui/react-utils": "workspace:*",
     "@myraui/shared-utils": "workspace:*",
-    "@hookform/resolvers": "^3.9.0",
-    "@radix-ui/react-toast": "^1.2.1",
-    "tailwindcss-animate": "^1.0.7",
-    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "next-themes": "^0.3.0",
-    "deepmerge": "^4.3.1",
-    "react-hook-form": "^7.53.0",
-    "zod": "^3.23.8",
-    "zsa": "^0.6.0",
-    "zsa-react": "^0.2.3"
-  }
+    "tailwind-merge": "^2.2.2"
+  },
+  "clean-package": "../../clean-package.config.json"
 }

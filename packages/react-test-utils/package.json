@@ -1,10 +1,9 @@
 {
-  "name": "@myraui/shared-utils",
+  "name": "@myraui/react-test-utils",
   "version": "2.5.0",
-  "type": "module",
-  "description": "A set of utilities for Myra UI packages",
+  "description": "Utilities for testing react components",
   "keywords": [
-    "utilities"
+    "react-test-utils"
   ],
   "author": {
     "name": "Moses Gitau",
@@ -22,23 +21,19 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myraui/myraui.git",
-    "directory": "packages/utilities/shared-utils"
-  },
-  "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "directory": "packages/react-test-utils"
   },
   "scripts": {
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "peerDependencies": {},
-  "devDependencies": {
-    "@myraui/test-utils": "workspace:*",
-    "clean-package": "2.2.0"
+  "bugs": {
+    "url": "https://github.com/myraui/myraui/issues"
   },
-  "dependencies": {
-    "clsx": "^2.1.0",
-    "flat": "^6.0.1",
-    "fp-ts": "^2.16.9"
-  }
+  "devDependencies": {
+    "clean-package": "2.2.0",
+    "@myraui/test-utils": "workspace:*"
+  },
+  "dependencies": {},
+  "clean-package": "../../clean-package.config.json"
 }

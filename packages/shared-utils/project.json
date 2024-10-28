@@ -1,7 +1,7 @@
 {
   "name": "@myraui/shared-utils",
-  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/utilities/shared-utils/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/shared-utils/src",
   "projectType": "library",
   "tags": ["scope:common"],
   "targets": {
@@ -12,10 +12,10 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "packages/utilities/shared-utils/dist",
-        "rootDir": "packages/utilities/shared-utils/src",
-        "main": "packages/utilities/shared-utils/src/index.ts",
-        "tsConfig": "packages/utilities/shared-utils/tsconfig.lib.json",
+        "outputPath": "packages/shared-utils/dist",
+        "rootDir": "packages/shared-utils/src",
+        "main": "packages/shared-utils/src/index.ts",
+        "tsConfig": "packages/shared-utils/tsconfig.lib.json",
         "assets": []
       }
     },
@@ -23,7 +23,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "packages/utilities/shared-utils/jest.config.ts"
+        "jestConfig": "packages/shared-utils/jest.config.ts"
       }
     }
   }

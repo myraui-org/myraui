@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "@myraui/react": "workspace:*",
-    "next": "^14.2.3"
+    "@myraui/react": "workspace:*"
   }
 }
