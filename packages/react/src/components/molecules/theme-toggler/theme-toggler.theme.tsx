@@ -2,10 +2,10 @@ import { tv, VariantProps } from '@nextui-org/react';
 
 const themeTogglerTheme = tv({
   slots: {
-    base: 'border border-1 border-default p-2 bg-default/20',
+    base: 'border border-1 border-foreground/50 p-2 bg-foreground/5',
     button: [
-      'group inline-flex items-center justify-center m-0 border border-transparent border-2',
-      'data-[selected=true]:border-default data-[selected=true]:bg-default/50',
+      'group inline-flex items-center justify-center m-0 border border-transparent border-1',
+      'data-[selected=true]:border-foreground/20 data-[selected=true]:bg-foreground/10',
     ],
   },
   variants: {

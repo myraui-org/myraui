@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeToggler should render correctly 1`] = `
+<div>
+  <div
+    aria-label=" "
+    aria-orientation="horizontal"
+    class="relative flex flex-col gap-2 border-1 border-foreground/50 bg-foreground/5 p-1 rounded-lg"
+    id="react-aria-:r0:"
+    role="radiogroup"
+  >
+    <div
+      class="flex flex-col flex-wrap gap-2 data-[orientation=horizontal]:flex-row"
+      data-orientation="horizontal"
+      role="presentation"
+    >
+      <label
+        class="group relative max-w-fit cursor-pointer tap-highlight-transparent select-none group inline-flex items-center justify-center m-0 border-transparent border-1 data-[selected=true]:border-foreground/20 data-[selected=true]:bg-foreground/10 p-1 rounded-md"
+      >
+        <span
+          style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+        >
+          <input
+            aria-describedby=":r7: react-aria-:r3:"
+            aria-labelledby=":r6:"
+            name="react-aria-:r5:"
+            tabindex="0"
+            type="radio"
+            value="light"
+          />
+        </span>
+        <div
+          class="m-0"
+        >
+          <svg
+            class="tabler-icon tabler-icon-sun relative text-foreground select-none text-medium transition-colors motion-reduce:transition-none"
+            fill="none"
+            height="24"
+            id=":r6:"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"
+            />
+            <path
+              d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"
+            />
+          </svg>
+        </div>
+      </label>
+      <label
+        class="group relative max-w-fit cursor-pointer tap-highlight-transparent select-none group inline-flex items-center justify-center m-0 border-transparent border-1 data-[selected=true]:border-foreground/20 data-[selected=true]:bg-foreground/10 p-1 rounded-md"
+      >
+        <span
+          style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+        >
+          <input
+            aria-describedby=":r9: react-aria-:r3:"
+            aria-labelledby=":r8:"
+            name="react-aria-:r5:"
+            tabindex="0"
+            type="radio"
+            value="dark"
+          />
+        </span>
+        <div
+          class="m-0"
+        >
+          <svg
+            class="tabler-icon tabler-icon-moon relative text-foreground select-none text-medium transition-colors motion-reduce:transition-none"
+            fill="none"
+            height="24"
+            id=":r8:"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"
+            />
+          </svg>
+        </div>
+      </label>
+      <label
+        class="group relative max-w-fit cursor-pointer tap-highlight-transparent select-none group inline-flex items-center justify-center m-0 border-transparent border-1 data-[selected=true]:border-foreground/20 data-[selected=true]:bg-foreground/10 p-1 rounded-md"
+      >
+        <span
+          style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+        >
+          <input
+            aria-describedby=":rb: react-aria-:r3:"
+            aria-labelledby=":ra:"
+            name="react-aria-:r5:"
+            tabindex="0"
+            type="radio"
+            value="system"
+          />
+        </span>
+        <div
+          class="m-0"
+        >
+          <svg
+            class="tabler-icon tabler-icon-settings relative text-foreground select-none text-medium transition-colors motion-reduce:transition-none"
+            fill="none"
+            height="24"
+            id=":ra:"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"
+            />
+            <path
+              d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"
+            />
+          </svg>
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+`;
