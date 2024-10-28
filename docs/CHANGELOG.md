@@ -7,7 +7,7 @@ This was a version bump only for docs to align it with other projects, there wer
 
 ### 🚀 Features
 
-- **components:** restructure component themes ([8a07df7](https://github.com/myraui/myraui/commit/8a07df7))
+- **components:** restructure component themes ([8a07df7](https://github.com/myraui-org/myraui/commit/8a07df7))
 
 
 ### ❤️  Thank You
@@ -63,7 +63,7 @@ This was a version bump only for docs to align it with other projects, there wer
 
 ### 🚀 Features
 
-- **docs:** create docs app ([0418796](https://github.com/myraui/myraui/commit/0418796))
+- **docs:** create docs app ([0418796](https://github.com/myraui-org/myraui/commit/0418796))
 
 
 ### ❤️  Thank You

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: '@myraui/server',
+  displayName: '@myraui-org/server',
   preset: '../../jest.preset.js',
   coverageDirectory: '../../coverage/packages/server',
 };

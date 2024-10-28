@@ -26,6 +26,20 @@ const projects = readCachedProjectGraph().nodes;
     })
     .parseAsync();
 
+  const tags = execaSync('git', ['tag', '--list'])
+    .stdout.split('\n')
+    .map((tag) => tag.trim())
+    .filter(Boolean);
+
+  const firstRelease = tags.length === 0;
+
+  if (firstRelease) {
+    // tag the first commit with v0.0.0
+    // get the first commit hash
+    const firstCommitHash = execaSync('git', ['rev-list', '--max-parents=0', 'HEAD']).stdout.trim();
+    execaSync('git', ['tag', 'v0.0.0', firstCommitHash]);
+  }
+
   // execute in dry-run mode to determine the version and changelog content
   const { workspaceVersion, projectsVersionData } = await releaseVersion({
     specifier: options.version,

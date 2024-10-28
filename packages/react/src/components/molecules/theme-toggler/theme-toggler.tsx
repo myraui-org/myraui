@@ -1,7 +1,7 @@
 import { useThemeToggler, UseThemeTogglerProps } from './use-theme-toggler';
 import React from 'react';
 import { forwardRef, RadioGroup } from '@nextui-org/react';
-import { themes } from '@myraui/react-utils';
+import { themes } from '@myraui-org/react-utils';
 import { ThemeButton } from './theme-button';
 
 export interface ThemeTogglerProps extends UseThemeTogglerProps {}

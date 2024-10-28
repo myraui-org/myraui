@@ -1,5 +1,5 @@
 {
-  "name": "@myraui/storybook",
+  "name": "@myraui-org/storybook",
   "version": "1.0.0",
   "type": "commonjs",
   "description": "The MyraUI react components storybook",
@@ -21,16 +21,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myraui/myraui.git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
     "directory": "packages/storybook"
   },
   "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "url": "https://github.com/myraui-org/myraui/issues"
   },
   "dependencies": {
     "next-themes": "^0.3.0"
   },
   "devDependencies": {
-    "@myraui/react": "workspace:^"
+    "@myraui-org/react": "workspace:^"
   }
 }

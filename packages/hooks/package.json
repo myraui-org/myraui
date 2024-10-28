@@ -1,6 +1,6 @@
 {
-  "name": "@myraui/hooks",
-  "version": "2.5.0",
+  "name": "@myraui-org/hooks",
+  "version": "0.0.0",
   "description": "A collection of re-usable hooks for react components",
   "keywords": [
     "hooks"
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myraui/myraui.git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
     "directory": "packages/hooks"
   },
   "scripts": {
@@ -28,7 +28,7 @@
     "postpack": "clean-package restore"
   },
   "bugs": {
-    "url": "https://github.com/myraui/myraui/issues"
+    "url": "https://github.com/myraui-org/myraui/issues"
   },
   "peerDependencies": {
     "react": ">=18",
@@ -36,12 +36,12 @@
   },
   "devDependencies": {
     "clean-package": "2.2.0",
-    "@myraui/react-test-utils": "workspace:*",
-    "@myraui/test-utils": "workspace:*"
+    "@myraui-org/react-test-utils": "workspace:*",
+    "@myraui-org/test-utils": "workspace:*"
   },
   "dependencies": {
-    "@myraui/shared-utils": "workspace:*",
-    "@myraui/react-utils": "workspace:*"
+    "@myraui-org/shared-utils": "workspace:*",
+    "@myraui-org/react-utils": "workspace:*"
   },
   "clean-package": "../../clean-package.config.json"
 }

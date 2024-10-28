@@ -1,5 +1,5 @@
 {
-  "name": "@myraui/server",
+  "name": "@myraui-org/server",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/server/src",
   "projectType": "library",

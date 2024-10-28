@@ -3,7 +3,7 @@ import { breakpointTheme } from './breakpoint.theme';
 import React, { useMemo } from 'react';
 import { mapPropsVariants, SlotsToClasses, PropGetter } from '@nextui-org/react';
 import clsx from 'clsx';
-import { objectToDeps } from '@myraui/shared-utils';
+import { objectToDeps } from '@myraui-org/shared-utils';
 
 interface Props {
   /**

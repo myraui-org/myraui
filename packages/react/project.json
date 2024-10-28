@@ -1,5 +1,5 @@
 {
-  "name": "@myraui/react",
+  "name": "@myraui-org/react",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/react/src",
   "projectType": "library",

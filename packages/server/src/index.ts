@@ -1,1 +1,1 @@
-export * from '@myraui/fonts';
+export * from '@myraui-org/fonts';

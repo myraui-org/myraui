@@ -1,4 +1,4 @@
 'use client';
 export * from './components';
-export * from '@myraui/react-utils';
-export * from '@myraui/shared-utils';
+export * from '@myraui-org/react-utils';
+export * from '@myraui-org/shared-utils';

@@ -1,0 +1,44 @@
+{
+  "name": "@myraui-org/shared-utils",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A set of utilities for Myra UI packages",
+  "keywords": [
+    "utilities"
+  ],
+  "author": {
+    "name": "Moses Gitau",
+    "email": "gitaumoses4@gmail.com"
+  },
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
+    "directory": "packages/shared-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/myraui-org/myraui/issues"
+  },
+  "scripts": {
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@myraui-org/test-utils": "workspace:*",
+    "clean-package": "2.2.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "flat": "^6.0.1",
+    "fp-ts": "^2.16.9"
+  }
+}

@@ -1,17 +1,17 @@
 {
   "name": "myraui",
-  "version": "2.5.0",
+  "version": "0.0.0",
   "license": "MIT",
   "private": true,
   "scripts": {
     "docs": "nx serve docs",
-    "dev": "nx storybook @myraui/storybook",
+    "dev": "nx storybook @myraui-org/storybook",
     "lint": "nx run-many --target=lint --all --parallel",
     "test": "nx run-many --target=test --all --parallel",
     "build": "nx run-many --target=build --all --parallel",
     "format:check": "prettier --check packages/**/**/src --cache",
     "format:write": "prettier --write packages/**/**/src",
-    "build-storybook": "nx build-storybook @myraui/storybook",
+    "build-storybook": "nx build-storybook @myraui-org/storybook",
     "coverage-merge": "node tools/scripts/coverageMerger.js",
     "create:package": "plop package && pnpm install",
     "create:component": "plop component && pnpm install",
@@ -111,11 +111,9 @@
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
     "@tabler/icons-react": "^3.17.0",
-    "framer-motion": "^11.5.4",
     "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "tailwindcss-animate": "^1.0.7",
     "tslib": "^2.3.0"
   },
   "nx": {

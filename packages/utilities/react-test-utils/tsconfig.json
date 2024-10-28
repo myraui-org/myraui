@@ -1,9 +1,0 @@
-{
-  "extends": "../../../tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "types": ["jest", "node"]
-  },
-  "files": [],
-  "include": ["src"]
-}

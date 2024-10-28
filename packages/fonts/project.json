@@ -1,5 +1,5 @@
 {
-  "name": "@myraui/fonts",
+  "name": "@myraui-org/fonts",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/fonts/src",
   "projectType": "library",

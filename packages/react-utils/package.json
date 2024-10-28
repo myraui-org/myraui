@@ -1,0 +1,52 @@
+{
+  "name": "@myraui-org/react-utils",
+  "version": "0.0.0",
+  "description": "Common react utilities for Myra UI packages",
+  "keywords": [
+    "react-utils"
+  ],
+  "author": {
+    "name": "Moses Gitau",
+    "email": "gitaumoses4@gmail.com"
+  },
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myraui-org/myraui.git",
+    "directory": "packages/react-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/myraui-org/myraui/issues"
+  },
+  "scripts": {
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "peerDependencies": {
+    "@nextui-org/react": ">=2.4.8",
+    "@tabler/icons-react": ">=3.17.0",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@myraui-org/react-test-utils": "workspace:*",
+    "@myraui-org/test-utils": "workspace:*",
+    "@nextui-org/react": "^2.4.8",
+    "@tabler/icons-react": "^3.17.0",
+    "clean-package": "2.2.0"
+  },
+  "dependencies": {
+    "@myraui-org/shared-utils": "workspace:*",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.2"
+  },
+  "clean-package": "../../clean-package.config.json"
+}

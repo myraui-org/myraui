@@ -1,4 +1,4 @@
-# @myraui/server
+# @myraui-org/server
 
 A Quick description of the component
 
@@ -7,12 +7,12 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @myraui/server
+yarn add @myraui-org/server
 # or
-npm i @myraui/server
+npm i @myraui-org/server
 ```
 
 ## Licence
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/myraui/myraui/blob/main/LICENSE).
+[MIT license](https://github.com/myraui-org/myraui/blob/main/LICENSE).
