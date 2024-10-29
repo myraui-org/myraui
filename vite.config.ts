@@ -22,7 +22,9 @@ const createEntries = (rootDir: string) => {
 };
 
 export function createViteConfig(rootDir: string) {
+  const workspaceRoot = path.resolve(rootDir, '../..');
   const packageJson = readJson(path.resolve(rootDir, 'package.json'));
+  const workspacePackageJson = readJson(path.resolve(workspaceRoot, 'package.json'));
 
   const entries = createEntries(rootDir);
 
@@ -52,6 +54,7 @@ export function createViteConfig(rootDir: string) {
           ...Object.keys(packageJson.dependencies || {}),
           ...Object.keys(packageJson.peerDependencies || {}),
           ...Object.keys(packageJson.devDependencies || {}),
+          ...Object.keys(workspacePackageJson.dependencies || {}),
           'react/jsx-runtime',
         ],
         output: {

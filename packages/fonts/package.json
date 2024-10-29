@@ -35,8 +35,6 @@
     "next": ">=14.0.4"
   },
   "devDependencies": {
-    "clean-package": "2.2.0",
-    "@myraui-org/test-utils": "workspace:*",
-    "next": ">=14.0.4"
+    "@myraui-org/test-utils": "workspace:*"
   }
 }

@@ -31,7 +31,6 @@
     "url": "https://github.com/myraui-org/myraui/issues"
   },
   "devDependencies": {
-    "clean-package": "2.2.0",
     "@myraui-org/test-utils": "workspace:*"
   },
   "dependencies": {},

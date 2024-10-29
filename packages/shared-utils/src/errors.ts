@@ -1,1 +1,3 @@
-export class Exception extends Error {}
+export class JsonStringifyError extends Error {
+  readonly _tag = 'JsonStringifyError';
+}

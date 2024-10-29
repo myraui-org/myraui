@@ -49,9 +49,15 @@ const projects = readCachedProjectGraph().nodes;
   if (!options.dryRun) {
     /* Update package version */
     console.log('📦 Updating package versions');
+    const workspacePackageJson = JSON.parse(readFileSync('package.json', 'utf-8'));
+
     for (const [key, value] of Object.entries(projectsVersionData)) {
       const packageJson = JSON.parse(readFileSync(`${projects[key].data.root}/package.json`, 'utf-8'));
       packageJson.version = value.newVersion;
+      packageJson.dependencies = {
+        ...workspacePackageJson.dependencies,
+        ...packageJson.dependencies,
+      };
       writeFileSync(`${projects[key].data.root}/package.json`, JSON.stringify(packageJson, null, 2));
       /* Stage changes */
       execaSync('git', ['add', `${projects[key].data.root}/package.json`]);
