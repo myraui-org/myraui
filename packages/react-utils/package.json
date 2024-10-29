@@ -38,15 +38,10 @@
   },
   "devDependencies": {
     "@myraui-org/react-test-utils": "workspace:*",
-    "@myraui-org/test-utils": "workspace:*",
-    "@nextui-org/react": "^2.4.8",
-    "@tabler/icons-react": "^3.17.0",
-    "clean-package": "2.2.0"
+    "@myraui-org/test-utils": "workspace:*"
   },
   "dependencies": {
-    "@myraui-org/shared-utils": "workspace:*",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.2"
+    "@myraui-org/shared-utils": "workspace:*"
   },
   "clean-package": "../../clean-package.config.json"
 }

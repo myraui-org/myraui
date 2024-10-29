@@ -111,6 +111,7 @@
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
     "@tabler/icons-react": "^3.17.0",
+    "effect": "^3.10.5",
     "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",

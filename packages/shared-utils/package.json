@@ -33,12 +33,9 @@
   },
   "peerDependencies": {},
   "devDependencies": {
-    "@myraui-org/test-utils": "workspace:*",
-    "clean-package": "2.2.0"
+    "@myraui-org/test-utils": "workspace:*"
   },
   "dependencies": {
-    "clsx": "^2.1.0",
-    "flat": "^6.0.1",
-    "fp-ts": "^2.16.9"
+    "flat": "^6.0.1"
   }
 }
